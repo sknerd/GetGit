@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		8125314323BF8344003E9C7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8125314223BF8344003E9C7F /* AppDelegate.swift */; };
 		8125314523BF8344003E9C7F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8125314423BF8344003E9C7F /* SceneDelegate.swift */; };
-		8125314723BF8344003E9C7F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8125314623BF8344003E9C7F /* ViewController.swift */; };
-		8125314A23BF8344003E9C7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8125314823BF8344003E9C7F /* Main.storyboard */; };
 		8125314C23BF8349003E9C7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8125314B23BF8349003E9C7F /* Assets.xcassets */; };
 		8125314F23BF8349003E9C7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8125314D23BF8349003E9C7F /* LaunchScreen.storyboard */; };
+		8125315723BF8AB3003E9C7F /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8125315623BF8AB3003E9C7F /* SearchVC.swift */; };
+		8125315923BF8AFF003E9C7F /* FavoritesListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8125315823BF8AFF003E9C7F /* FavoritesListVC.swift */; };
+		8125315B23BF90BF003E9C7F /* GGButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8125315A23BF90BF003E9C7F /* GGButton.swift */; };
+		8125315D23BF9366003E9C7F /* GGTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8125315C23BF9366003E9C7F /* GGTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8125313F23BF8344003E9C7F /* GetGit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetGit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8125314223BF8344003E9C7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8125314423BF8344003E9C7F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8125314623BF8344003E9C7F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8125314923BF8344003E9C7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8125314B23BF8349003E9C7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8125314E23BF8349003E9C7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8125315023BF8349003E9C7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8125315623BF8AB3003E9C7F /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
+		8125315823BF8AFF003E9C7F /* FavoritesListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesListVC.swift; sourceTree = "<group>"; };
+		8125315A23BF90BF003E9C7F /* GGButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GGButton.swift; sourceTree = "<group>"; };
+		8125315C23BF9366003E9C7F /* GGTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GGTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +62,13 @@
 			children = (
 				8125314223BF8344003E9C7F /* AppDelegate.swift */,
 				8125314423BF8344003E9C7F /* SceneDelegate.swift */,
-				8125314623BF8344003E9C7F /* ViewController.swift */,
-				8125314823BF8344003E9C7F /* Main.storyboard */,
 				8125314B23BF8349003E9C7F /* Assets.xcassets */,
 				8125314D23BF8349003E9C7F /* LaunchScreen.storyboard */,
 				8125315023BF8349003E9C7F /* Info.plist */,
+				8125315623BF8AB3003E9C7F /* SearchVC.swift */,
+				8125315823BF8AFF003E9C7F /* FavoritesListVC.swift */,
+				8125315A23BF90BF003E9C7F /* GGButton.swift */,
+				8125315C23BF9366003E9C7F /* GGTextField.swift */,
 			);
 			path = GetGit;
 			sourceTree = "<group>";
@@ -127,7 +133,6 @@
 			files = (
 				8125314F23BF8349003E9C7F /* LaunchScreen.storyboard in Resources */,
 				8125314C23BF8349003E9C7F /* Assets.xcassets in Resources */,
-				8125314A23BF8344003E9C7F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8125314723BF8344003E9C7F /* ViewController.swift in Sources */,
+				8125315B23BF90BF003E9C7F /* GGButton.swift in Sources */,
+				8125315923BF8AFF003E9C7F /* FavoritesListVC.swift in Sources */,
+				8125315723BF8AB3003E9C7F /* SearchVC.swift in Sources */,
+				8125315D23BF9366003E9C7F /* GGTextField.swift in Sources */,
 				8125314323BF8344003E9C7F /* AppDelegate.swift in Sources */,
 				8125314523BF8344003E9C7F /* SceneDelegate.swift in Sources */,
 			);
@@ -147,14 +155,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		8125314823BF8344003E9C7F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8125314923BF8344003E9C7F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8125314D23BF8349003E9C7F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -294,7 +294,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = sknerd.GetGit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,7 +312,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = sknerd.GetGit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
