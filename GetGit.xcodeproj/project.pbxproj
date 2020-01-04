@@ -15,6 +15,7 @@
 		8125315923BF8AFF003E9C7F /* FavoritesListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8125315823BF8AFF003E9C7F /* FavoritesListVC.swift */; };
 		8125315B23BF90BF003E9C7F /* GGButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8125315A23BF90BF003E9C7F /* GGButton.swift */; };
 		8125315D23BF9366003E9C7F /* GGTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8125315C23BF9366003E9C7F /* GGTextField.swift */; };
+		817A79E823C0B94D00C73CFC /* FollowerListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817A79E723C0B94D00C73CFC /* FollowerListVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		8125315823BF8AFF003E9C7F /* FavoritesListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesListVC.swift; sourceTree = "<group>"; };
 		8125315A23BF90BF003E9C7F /* GGButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GGButton.swift; sourceTree = "<group>"; };
 		8125315C23BF9366003E9C7F /* GGTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GGTextField.swift; sourceTree = "<group>"; };
+		817A79E723C0B94D00C73CFC /* FollowerListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				8125315823BF8AFF003E9C7F /* FavoritesListVC.swift */,
 				8125315A23BF90BF003E9C7F /* GGButton.swift */,
 				8125315C23BF9366003E9C7F /* GGTextField.swift */,
+				817A79E723C0B94D00C73CFC /* FollowerListVC.swift */,
 			);
 			path = GetGit;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 				8125315923BF8AFF003E9C7F /* FavoritesListVC.swift in Sources */,
 				8125315723BF8AB3003E9C7F /* SearchVC.swift in Sources */,
 				8125315D23BF9366003E9C7F /* GGTextField.swift in Sources */,
+				817A79E823C0B94D00C73CFC /* FollowerListVC.swift in Sources */,
 				8125314323BF8344003E9C7F /* AppDelegate.swift in Sources */,
 				8125314523BF8344003E9C7F /* SceneDelegate.swift in Sources */,
 			);
