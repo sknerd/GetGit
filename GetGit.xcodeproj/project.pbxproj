@@ -22,6 +22,7 @@
 		817A79EC23C0C0EF00C73CFC /* GGBodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817A79EB23C0C0EF00C73CFC /* GGBodyLabel.swift */; };
 		817A79EE23C0C1AC00C73CFC /* GGAlertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817A79ED23C0C1AC00C73CFC /* GGAlertVC.swift */; };
 		817A79F023C0C86D00C73CFC /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817A79EF23C0C86D00C73CFC /* UIViewController+Ext.swift */; };
+		81B1A69223C1DD8400FDB9BD /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B1A69123C1DD8400FDB9BD /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,7 +43,7 @@
 		817A79EB23C0C0EF00C73CFC /* GGBodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GGBodyLabel.swift; sourceTree = "<group>"; };
 		817A79ED23C0C1AC00C73CFC /* GGAlertVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GGAlertVC.swift; sourceTree = "<group>"; };
 		817A79EF23C0C86D00C73CFC /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
-		817A79F523C0CDD100C73CFC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		81B1A69123C1DD8400FDB9BD /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +60,6 @@
 		8125313623BF8344003E9C7F = {
 			isa = PBXGroup;
 			children = (
-				817A79F523C0CDD100C73CFC /* Default-568h@2x.png */,
 				8125314123BF8344003E9C7F /* GetGit */,
 				8125314023BF8344003E9C7F /* Products */,
 			);
@@ -76,11 +76,13 @@
 		8125314123BF8344003E9C7F /* GetGit */ = {
 			isa = PBXGroup;
 			children = (
+				81B1A69023C1DD6C00FDB9BD /* Managers */,
 				814B0D5423C0D51100E156A5 /* Model */,
 				817A79F323C0CBC800C73CFC /* Extensions */,
 				817A79F223C0CB6B00C73CFC /* Custom Views */,
 				817A79F123C0CB3800C73CFC /* Screens */,
 				817A79F423C0CC2700C73CFC /* Support */,
+				8125315023BF8349003E9C7F /* Info.plist */,
 			);
 			path = GetGit;
 			sourceTree = "<group>";
@@ -131,9 +133,16 @@
 				8125314423BF8344003E9C7F /* SceneDelegate.swift */,
 				8125314B23BF8349003E9C7F /* Assets.xcassets */,
 				8125314D23BF8349003E9C7F /* LaunchScreen.storyboard */,
-				8125315023BF8349003E9C7F /* Info.plist */,
 			);
 			path = Support;
+			sourceTree = "<group>";
+		};
+		81B1A69023C1DD6C00FDB9BD /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				81B1A69123C1DD8400FDB9BD /* NetworkManager.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,6 +225,7 @@
 				817A79EA23C0BFA700C73CFC /* GGTitleLabel.swift in Sources */,
 				814B0D5623C0D52900E156A5 /* Follower.swift in Sources */,
 				817A79EC23C0C0EF00C73CFC /* GGBodyLabel.swift in Sources */,
+				81B1A69223C1DD8400FDB9BD /* NetworkManager.swift in Sources */,
 				817A79EE23C0C1AC00C73CFC /* GGAlertVC.swift in Sources */,
 				8125314323BF8344003E9C7F /* AppDelegate.swift in Sources */,
 				8125314523BF8344003E9C7F /* SceneDelegate.swift in Sources */,
@@ -356,7 +366,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S5W9FKJ4DL;
-				INFOPLIST_FILE = "$(SRCROOT)/GetGit/Support/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/GetGit/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -374,7 +384,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S5W9FKJ4DL;
-				INFOPLIST_FILE = "$(SRCROOT)/GetGit/Support/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/GetGit/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
