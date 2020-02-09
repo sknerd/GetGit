@@ -1,18 +1,15 @@
 //
-//  GGAvatarImageView.swift
+//  GGAlertContainerView.swift
 //  GetGit
 //
-//  Created by renks on 09.01.2020.
+//  Created by renks on 09.02.2020.
 //  Copyright © 2020 renks. All rights reserved.
 //
 
 import UIKit
 
-class GGAvatarImageView: UIImageView {
-    
-    let cache = NetworkManager.shared.cache
-    let placeholderImage = UIImage(named: "avatar-placeholder")!
-    
+class GGAlertContainerView: UIView {
+
     override init(frame: CGRect) {
         super.init(frame: frame)
         configure()
@@ -25,9 +22,11 @@ class GGAvatarImageView: UIImageView {
     
     
     private func configure() {
-        layer.cornerRadius = 10
-        clipsToBounds = true
-        image = placeholderImage
+        backgroundColor = .systemBackground
+        layer.cornerRadius = 16
+        layer.borderWidth = 2
+        layer.borderColor = UIColor.white.cgColor
         translatesAutoresizingMaskIntoConstraints = false
     }
+    
 }
